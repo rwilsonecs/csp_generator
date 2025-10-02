@@ -58,7 +58,7 @@ python3 generate_csp.py --url https://your-website.com --output-dir ./output --m
 
 Inside your `--output-dir`, you will get:
 
-### 🔸 `csp_policy.json`
+###  `csp_policy.json`
 
 A structured breakdown of allowed domains by CSP directive:
 
@@ -73,7 +73,7 @@ A structured breakdown of allowed domains by CSP directive:
 
 ---
 
-### 🔸 `web.config`
+###  `web.config`
 
 This can be dropped directly into an IIS deployment:
 
@@ -94,7 +94,7 @@ This can be dropped directly into an IIS deployment:
 
 ## How to Implement the CSP Header
 
-### 📍 For IIS (`web.config`)
+### For IIS (`web.config`)
 
 Paste the `<customHeaders>` section into your server's main `web.config` file, usually under:
 
